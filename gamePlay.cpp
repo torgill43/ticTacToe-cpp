@@ -1,24 +1,21 @@
-namespace TicTacToe
+#include "Gameplay.h"
+
+Gameplay::Gameplay()
 {
-	class gamePlay
-	{
-		public:
-			bool gameOver = false;
-			int turnCounter = 1;
+	// Nothing
+}
 
-		public:
-			void getInput()
-			{
-
-			};
-
-			void isValidMove()
-			{
-
-			};
-			void doTurn()
-			{
-
-			};
-	};
-};
+//char Gameplay::getInput() 
+//{
+//
+//};
+//
+//bool Gameplay::isValidMove()
+//{
+//
+//}
+//
+//void Gameplay::doTurn()
+//{
+//
+//}

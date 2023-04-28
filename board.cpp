@@ -1,34 +1,30 @@
-namespace TicTacToe
+#include "Board.h"
+
+Board::Board()
 {
-	class Board 
-	{
-		private:
-			char board[9] = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
-		
-		public:
-			void loadBoard()
-			{
+	// Nothing
+}
 
-			};
+void Board::displayBoard()
+{
+   cout << " " << _board[0] << " | " << _board[1] << " | " << _board[2] << endl;
+   cout << " - + - + - " << endl;
+   cout << " " << _board[3] << " | " << _board[4] << " | " << _board[5] << endl;
+   cout << " - + - + - " << endl;
+   cout << " " << _board[6] << " | " << _board[7] << " | " << _board[8] << endl;
+}
 
-			void displayBoard()
-			{
+void Board::updateBoard(char board[9])
+{
 
-			};
+}
 
-			void updateBoard()
-			{
+void Board::saveBoard(char board[9])
+{
 
-			};
+}
 
-			void saveBoard()
-			{
-
-			};
-
-			void checkWin()
-			{
-
-			};
-	};
-};
+//bool Board::checkWin(char board[9])
+//{
+//
+//}
