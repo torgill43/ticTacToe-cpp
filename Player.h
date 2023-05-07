@@ -1,16 +1,22 @@
 #pragma once
 #include <iostream>
+#include "Board.h"
 using namespace std;
+
+/********************
+*
+* Player Class
+*
+*********************/
 
 class Player
 {
-private:
-	char _turn = 'x';
 	
 public:
 	Player();
+	Board board;
 
 	//Player(char turn);
 
-	char checkTurn(int counter);
+	void displayTurn(char playerTurn);
 };

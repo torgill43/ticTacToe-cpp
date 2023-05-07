@@ -1,23 +1,35 @@
 #pragma once
 #include <iostream>
+#include <fstream>
 using namespace std;
 
+/********************
+* 
+* Board Class
+* 
+*********************/
 class Board
 {
-private:
-	char _board[9] = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
 		
 public:
+	char _board[9] = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
+	
 	Board();
 
-	//void loadBoard(); // stretch challenge << load from a file
+	//void loadBoard(); // stretch challenge 1 << load from a file
 
-	void displayBoard();
+	void displayBoard(char * board);
 
-	void updateBoard(char board[9]);
+	char getTurn(char * board);
 
-	void saveBoard(char board[9]);
+	bool isValidMove(char choice);
 
-	bool checkWin(char board[9]);
+	char * updateBoard(char playerTurn, char * board, char userChoice);
+
+	//void saveBoard(char board[9]); // stretch challenge 2 - allow user to save and come back - need to be able to write to file
+
+	bool checkWin(char * board, char turn);
+
+	bool checkTie(char * board);
 };
 

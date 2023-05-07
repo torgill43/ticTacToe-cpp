@@ -10,15 +10,7 @@ Player::Player()
 //	//_turn = turn;
 //}
 
-char Player::checkTurn(int counter)
+void Player::displayTurn(char playerTurn)
 {
-	if (counter % 2 == 0)
-	{
-		_turn = 'o';
-	}
-	else
-	{
-		_turn = 'x';
-	}
-	return _turn;
+	cout << "\n" << playerTurn << "'s turn..." << endl;
 }
