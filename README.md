@@ -8,7 +8,7 @@ Description: TicTacToe game written in C++. One person is X and one is O. Do you
 
 # Development Environment
 
-Visual Studio Community 2022
+IDE: Visual Studio Community 2022
 - When setting up my project, I selected the option to create a console application. This allowed me to work outside of the terminal (in a GUI) when my program was running. 
 
 Language:
