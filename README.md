@@ -4,7 +4,7 @@ Purpose: Learn basics of C++ by developing a TicTacToe game.
 
 Description: TicTacToe game written in C++. One person is X and one is O. Do your best to win through strategy!
 
-[TicTacToe in C++]([http://youtube.link.goes.here](https://youtu.be/1Vg1o-GqlIE)) (4 min)
+[TicTacToe in C++](https://youtu.be/1Vg1o-GqlIE) (4 min)
 
 # Development Environment
 
