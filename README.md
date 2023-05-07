@@ -4,20 +4,17 @@ Purpose: Learn basics of C++ by developing a TicTacToe game.
 
 Description: TicTacToe game written in C++. One person is X and one is O. Do your best to win through strategy!
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[TicTacToe in C++]([http://youtube.link.goes.here](https://youtu.be/1Vg1o-GqlIE)) (4 min)
 
 # Development Environment
 
 Visual Studio Community 2022
+- When setting up my project, I selected the option to create a console application. This allowed me to work outside of the terminal (in a GUI) when my program was running. 
 
 Language:
 C++
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
 
 - [W3 Schools](https://www.w3schools.com/cpp/default.asp)
 - [Stack Overflow](https://stackoverflow.com/)
